@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* 헤더 스타일링 */
+}
+
+.intro img {
+    /* 프로필 이미지 스타일링 */
+    border-radius: 50%;
+}
+
+.intro h1 {
+    /* 제목 스타일링 */
+}
+
+.buttons button {
+    /* 버튼 스타일링 */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* 나머지 요소들에 대한 CSS 추가... */
+
