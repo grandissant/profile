@@ -2,6 +2,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1{
+    color: blueviolet;
+    font-family: 'Georgia', serif;
+}
+
 header {
     /* 헤더 스타일링 */
 }
@@ -16,13 +21,63 @@ header {
 }
 
 .buttons button {
-    /* 버튼 스타일링 */
+   
     border: none;
     border-radius: 50%;
-    color: white;
     padding: 15px;
     margin: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content:flex-end
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    height: 150px; 
+    border-radius: 100%;
+    overflow: hidden;
+}
+.profile {
+    width: 150%;
+    height: auto;
+    object-fit: cover;
+    object-position: left center;
+}
+
+#resume {
+    background-color: #2a7bb1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: right center;
+}
+
+#projects {
+    background-color: #8d7611; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: right center;
+}
+
+#contact {
+    background-color: #1c6758;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: right center;
 }
 
 /* 나머지 요소들에 대한 CSS 추가... */
